@@ -1,4 +1,6 @@
 .vs
+.idea
 packages
 bin 
 obj
+*.DotSettings.user
