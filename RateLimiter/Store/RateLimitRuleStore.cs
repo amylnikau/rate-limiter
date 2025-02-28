@@ -13,7 +13,7 @@ public class RateLimitRuleStore : IRateLimitRuleStore
     {
         if (_rateLimitRules.TryGetValue(resourceId, out var existingRules))
         {
-            existingRules.AddRange(existingRules);
+            existingRules.AddRange(rules);
             return;
         }
         
